@@ -6,7 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./card-pricing.component.css']
 })
 export class CardPricingComponent implements OnInit {
-
+ @Input()
+ 	gamePriceCall:string=""
 	@Input()
 	gameType:string ="Digital PS4"
 	@Input()

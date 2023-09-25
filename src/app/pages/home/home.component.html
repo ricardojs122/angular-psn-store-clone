@@ -1,31 +1,75 @@
 <div class="home__container">
 	<app-card
-		gameCover="assets/bt-1.jpg"
+	 jogoId="1"
+		(click)="navegarParaDetalhes(1)"
+		gameCover="assets/SPIDER-MAN2.avif"
 		gameLabel="DIGITAL"
-		gameType="DIGITAL | PS4"
-		gamePrice="R$ 129,99"
+		gameType="EXCLUSIVO PS5"
+		gamePriceCall="NOVO JOGO DO SPIDER-MAN"
+		gamePrice="R$ 399,50"
 	>
 	</app-card>
 	<app-card
-		gameCover="assets/bt-4.jpg"
-		gameLabel="EXCLUSIVE"
-		gameType="DISC | PS5"
-		gamePrice="R$ 269,99"
+	jogoId="2"
+		gameCover="assets/PROMO.avif"
+		gameLabel="APROVEITE"
+		gameType="GRANDES JOGOS GRANDES DESCONTOS"
+		gamePriceCall="ECONOMIZE AGORA"
+		gamePrice=""
 	>
 	</app-card>
 	<app-card
-		gameCover="assets/ac-cover.jpg"
-		gameLabel="BEST OF YEAR"
+	 jogoId="3"
+	 (click)="navegarParaDetalhes(3)"
+		gameCover="assets/RE4SW.avif"
+		gameLabel="NOVA DLC"
 		gameType="DIGITAL | PS5"
-		gamePrice="R$ 369,99"
+		gamePriceCall="NOVA DLC DESTINOS SEPARADOS"
+		gamePrice="R$ 53,90"
 		>
 	</app-card>
 	<app-card
-		gameCover="assets/bt-hardline.jpg"
-		gameLabel="NEW"
-		gameType="DIGITAL | PS3 PS4 PS5"
+	jogoId="4"
+	gameCover="assets/MK1.avif"
+		gameLabel="PRÉ VENDA"
+		gamePriceCall="GARANTA JÁ O SEU FATALITY"
+		gameType="DIGITAL | PS5"
 		gamePrice="R$ 369,99"
 	>
-	</app-card>
+		</app-card>
+		<app-card
+		jogoId="5"
+		gameCover="assets/baldur.avif"
+			gameLabel="NOVO"
+			gameType="DIGITAL | PS5"
+			gamePrice="R$ 340,90"
+			gamePriceCall="VAMOS SE AVENTURAR"
+		>
+		</app-card>
+		<app-card
+		jogoId="6"
+		gameCover="assets/lop.avif"
+			gameLabel="NOVO"
+			gameType="DIGITAL | PS4 PS5"
+			gamePrice="R$ 349,90"
+		>
+		</app-card>
+		<app-card
+		jogoId="7"
+		gameCover="assets/ufc.avif"
+			gameLabel="EXCLUSIVO"
+			gameType="DIGITAL | PS5"
+			gamePrice="R$ 369,99"
+		>
+		</app-card>
+		<app-card
+		jogoId="8"
+		gameCover="assets/likeadragon.avif"
+			gameLabel="NOVO"
+			gameType="DIGITAL | PS3 PS4 PS5"
+			gamePrice="R$ 369,99"
+		>
+		</app-card>
 </div>
+
 
